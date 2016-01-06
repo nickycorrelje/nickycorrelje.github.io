@@ -12,6 +12,10 @@ node_modules
 *.log.*
 
 
+# Sketch files #
+##############################################
+*.sketch
+
 # Sublime editor generated folders and files #
 ##############################################
 # cache files for sublime text

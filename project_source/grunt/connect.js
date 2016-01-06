@@ -8,6 +8,7 @@ module.exports = {
         var middlewares = [];
 
         middlewares.push(rewriteModule.getMiddleware([
+          {from: '^/javascripts/require.js', to: './node_modules/requirejs/require.js'},
           {from: '^/stylesheets/(.*)$', to: './tmp/stylesheets/$1'},
           {from: '^/javascripts/(.*)$', to: './src/javascripts/$1'},
           {from: '^/images/(.*)$', to: './src/images/$1'},

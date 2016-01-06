@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     javascripts: 'javascripts',
     images: 'images',
     templates: 'templates',
-    dist: 'dist'
+    dist: '../'
   };
 
   require('load-grunt-config')(grunt, {
