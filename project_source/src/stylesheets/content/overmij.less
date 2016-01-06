@@ -1,0 +1,37 @@
+.overmij {
+  background-color: @color-yellow;
+
+  &-introduction {
+    position: relative;
+
+    &Wrapper {
+      .display(flex);
+      .flex-direction(column);
+      .align-items(center);
+      .justify-content(flex-end);
+
+      position: relative;
+
+      padding-top: 25%;
+
+      text-align: center;
+      color: @color-white;
+    }
+
+    &Image {
+      margin-bottom: 2em;
+    }
+
+    .navigation-item {
+      color: @color-black !important;
+    }
+  }
+
+  &-description {
+    height: 100vh;
+
+    padding: 50px 100px;
+
+    background-color: @color-white;
+  }
+}

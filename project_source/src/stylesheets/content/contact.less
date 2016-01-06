@@ -1,0 +1,45 @@
+.contact {
+  &-introduction {
+    .display(flex);
+    .align-items(center);
+    .justify-content(center);
+
+    position: relative;
+
+    color: @color-white;
+    background-color: @color-black;
+  }
+
+  &-info {
+    padding: 50px 100px;
+
+    &Title {
+      font-size: @font-size-l;
+    }
+
+    &Description {
+      margin-bottom: 0;
+    }
+  }
+
+  &-email {
+    color: @color-yellow;
+    text-decoration: none;
+  }
+
+  &-social {
+    padding-top: 40px;
+  }
+}
+
+.social-icon {
+  padding: 0 4px;
+}
+
+.social-icon:first-child {
+  padding-left: 0;
+}
+
+.social-icon:last-child {
+  padding-right: 0;
+}

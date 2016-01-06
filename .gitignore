@@ -1,7 +1,7 @@
 # Project generated folders and files #
 #######################################
 dist
-.tmp
+tmp
 
 
 config/local.*

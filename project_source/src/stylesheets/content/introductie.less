@@ -1,0 +1,28 @@
+.introduction {
+  .display(flex);
+  .justify-content(center);
+  .align-items(center);
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('/images/introduction-background.jpg');
+  background-position: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-block {
+    color: @color-white;
+    text-align: center;
+  }
+
+  &-preTitle {
+    font-size: @font-size-l;
+    font-weight: @font-weight-light;
+    padding-bottom: .4em;
+  }
+
+  &-title {
+    font-size: @font-size-xl;
+  }
+}

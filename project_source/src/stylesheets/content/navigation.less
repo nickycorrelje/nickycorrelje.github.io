@@ -1,0 +1,34 @@
+.navigation {
+  .display(flex);
+  .justify-content(center);
+  .align-items(center);
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+
+  &-list {
+    .display(flex);
+
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &-item {
+    color: @color-yellow;
+    font-weight: @font-weight-bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  li:not(:last-child) a:after {
+    display: inline;
+    content: "-";
+    padding: 0 15px;
+    color: @color-white;
+    font-weight: @font-weight-light;
+  }
+}

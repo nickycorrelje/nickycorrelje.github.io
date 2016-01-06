@@ -1,0 +1,28 @@
+/*
+  Breakpoints
+  ==============
+  20em (320px)
+  30em (480px)
+  48em (768px)
+  64em (1024px)
+
+  Breakpoints use relative units in order to scale with user base font setting
+
+  Usage
+  ========
+  If you need to use these breakpoints in your CSS use
+  them as follows:
+  @media @viewport-m {
+    ...
+  }
+*/
+
+@breakpoint-xs: 20em;
+@breakpoint-s: 30em;
+@breakpoint-m: 48em;
+@breakpoint-l: 64em;
+
+@viewport-xs: ~'(min-width:' @breakpoint-xs ~')';
+@viewport-s: ~'(min-width:' @breakpoint-s ~')';
+@viewport-m: ~'(min-width:' @breakpoint-m ~')';
+@viewport-l: ~'(min-width:' @breakpoint-l ~')';

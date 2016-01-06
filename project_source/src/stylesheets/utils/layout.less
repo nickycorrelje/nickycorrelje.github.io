@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  @media (--viewport-m) {
+    flex-direction: row;
+  }
+}
+
+.column {
+  width: 100%;
+
+  padding: 0 0 2em 0;
+
+  @media (--viewport-m) {
+    padding: 0 1em;
+  }
+}
