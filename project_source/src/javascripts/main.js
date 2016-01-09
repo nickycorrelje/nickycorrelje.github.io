@@ -34,7 +34,7 @@ define(function(require) {
       panelSelector: '.page-section',
       delay: 0,
       $menu: $('.navigation-list'),
-      onSnapStart: mijnwerk.resetContainerSizesj
+      onSnapFinish: mijnwerk.close
     });
   }
 });

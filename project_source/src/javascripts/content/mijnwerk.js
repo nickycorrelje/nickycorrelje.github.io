@@ -66,15 +66,11 @@ define(function() {
   function close() {
     resetCasesLayout();
     scrollToSelectedCase();
-    resetContainerSizes();
-  }
-
-  function resetContainerSizes() {
     setContainerSize('100%');
   }
 
   return {
     initialize: initialize,
-    resetContainerSizes: resetContainerSizes
+    close: close
   };
 });
